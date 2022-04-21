@@ -11,8 +11,10 @@ ${data.description}
 - [Contribution](#contribution)
 - [Usage](#usage)
 - [Tests](#tests)
-- [Credits](#credits)
+- [Questions](#questions)
 - [License](#license)
+- [Contact](#contact)
+
 
 ## Installation 
 
@@ -38,14 +40,10 @@ ${data.questions}
 
 ![](https://img.shields.io/badge/license-${data.license}-blue)
 
-## User Name
+## Contact
 
-${data.userName}
-
-## Email
-
-${data.email}
+Contact me at ${data.email} or ![](https://github.com/${data.userName})
 `
 }
 
-module.exports = readme
+module.exports = readme;
