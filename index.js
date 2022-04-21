@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+const readme = require('./readme')
 
 // questions
 inquirer.prompt([
@@ -63,10 +63,8 @@ inquirer.prompt([
         message: "Please enter your email: "
     }
 
-]).then(response) => {
+]).then(response => {
     console.log(response)
 
-    let readme = 
-
-fs.writeFile('README.md', 'utf8')
-}
+fs.writeFileSync('dist/README.md', readme(response), 'utf8')
+})
