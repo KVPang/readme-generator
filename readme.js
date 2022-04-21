@@ -5,6 +5,8 @@ return `# ${data.projectTitle}
 
 ${data.description}
 
+![](https://img.shields.io/badge/license-${data.license}-blue)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -38,12 +40,12 @@ ${data.questions}
  
 ## License
 
-![](https://img.shields.io/badge/license-${data.license}-blue)
+${data.license}
 
 ## Contact
 
-Contact me at ${data.email} or ![](https://github.com/${data.userName})
+Contact me at ${data.email} or on GitHub: [${data.userName}](https://github.com/${data.userName})
 `
 }
 
-module.exports = readme;
+module.exports = readme
