@@ -39,13 +39,13 @@ THEN I am taken to the corresponding section of the README
 ## Installation 
 Users will need to *clone* this repository link, install Node.js, and install the NPM Inquirer package
 
-
 ## Technologies Used
 - JavaScript
 - Node.js 
 
 ## Links
-- GitHub: https://github.com/KVPang/readme-generator
+- [GitHub](https://github.com/KVPang/readme-generator)
+- [Walkthrough Video](https://drive.google.com/file/d/1jb4KN5DHnDyWJ2IbXnEfL4_9bZYG0ysD/view)
 
 ## License 
  - MIT 
