@@ -65,6 +65,6 @@ inquirer.prompt([
 
 ]).then(response => {
     console.log(response)
-    
+ 
 fs.writeFileSync('dist/README.md', readme(response), 'utf8')
 })
